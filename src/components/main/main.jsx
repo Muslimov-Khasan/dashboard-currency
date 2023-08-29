@@ -1,13 +1,20 @@
 import "./main.css";
 import Check from "../../Assets/img/check.svg";
 import Copy from "../../Assets/img/copy.png";
+import Repeat from "../../Assets/img/repeat.svg";
+import Circle from "../../Assets/img/circle.svg";
+import Wallet from "../../Assets/img/wallet.svg";
+import Calendar from "../../Assets/img/calendar.svg";
 
 const Main = () => {
   return (
     <>
+    <main>
+
       <div className="contianer">
+        <div className="inner-rectangle">
+
         <div className="rectangle-parent">
-          
           <div className="group-child" />
           <div className="group-item" />
           <div className="status-parent">
@@ -42,11 +49,42 @@ const Main = () => {
               <span className="span">{` `}</span>
             </div>
             <img className="copy-icon" src={Copy} alt="Copy" />
-          
           </div>
+        </div>
 
+        <div className="rectangle-container">
+          <div className="group-child6" />
+          <div className="group-div">
+            <div className="change-amount-parent">
+              <div className="change-amount">Change Amount</div>
+              <img className="repeat-icon" alt="" src={Repeat} />
+            </div>
+          </div>
+          <div className="rectangle-parent1">
+            <div className="group-child8" />
+            <div className="cancel-recurring-parent">
+              <div className="change-amount">Cancel Recurring</div>
+              <img className="repeat-icon" alt="" src={Circle} />
+            </div>
+          </div>
+          <div className="rectangle-parent2">
+            <div className="group-child9" />
+            <div className="change-payment-method-parent">
+              <div className="change-amount">Change Payment Method</div>
+              <img className="repeat-icon" alt="" src={Wallet} />
+            </div>
+          </div>
+          <div className="rectangle-parent3">
+            <div className="group-child10" />
+            <div className="change-date-parent">
+              <div className="change-amount">Change Date</div>
+              <img className="repeat-icon" alt="" src={Calendar} />
+            </div>
+          </div>
+        </div> 
         </div>
       </div>
+    </main>
     </>
   );
 };

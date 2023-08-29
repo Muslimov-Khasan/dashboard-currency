@@ -209,3 +209,140 @@
   font-family: var(--font-work-sans);
   transform: translateX(100px);
 }
+
+.contianer {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+.inner-rectangle {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -100px;
+
+}
+
+.group-child6,
+.group-child7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.group-child6 {
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 1px 3px 3px rgba(62, 63, 64, 0.1);
+  width: 264px;
+  height: 205px;
+  
+}
+.group-child7 {
+  border: 0;
+  background-color: transparent;
+}
+.change-amount {
+  position: absolute;
+  top: 0;
+  left: 26px;
+  line-height: 28px;
+}
+.repeat-icon {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.change-amount-parent {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  width: 151px;
+  height: 28px;
+}
+.group-child8,
+.group-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 264px;
+  height: 52px;
+}
+.group-child8 {
+  border-radius: 0 0 8px 8px;
+  background-color: #fff;
+  border: 1px solid #dbdcde;
+  box-sizing: border-box;
+}
+.cancel-recurring-parent {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  width: 159px;
+  height: 28px;
+}
+.group-child9,
+.rectangle-parent1 {
+  position: absolute;
+  top: 153px;
+  left: 0;
+  width: 264px;
+  height: 52px;
+}
+.group-child9 {
+  top: 0;
+  border: 1px solid #dbdcde;
+  box-sizing: border-box;
+}
+.change-payment-method-parent {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  width: 221px;
+  height: 28px;
+}
+.group-child10,
+.rectangle-parent2 {
+  position: absolute;
+  top: 51px;
+  left: 0;
+  width: 264px;
+  height: 52px;
+}
+.group-child10 {
+  top: 0;
+  background-color: #f3f3f3;
+  border: 1px solid #dbdcde;
+  box-sizing: border-box;
+}
+.change-date-parent {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  width: 126px;
+  height: 28px;
+}
+.rectangle-container,
+.rectangle-parent3 {
+  position: absolute;
+  top: 102px;
+  left: 0;
+  width: 264px;
+  height: 52px;
+}
+.rectangle-container {
+  top: 160px;
+  left: 73em;
+  height: 165px;
+  text-align: left;
+  font-size: 16px;
+  color: #2f2f30;
+  font-family: "Work Sans";
+}
