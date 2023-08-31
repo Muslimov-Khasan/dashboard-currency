@@ -1,0 +1,17 @@
+.nav {
+  border-bottom: 2px solid #dbdcde;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-item {
+  margin-left: 16px;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  line-height: 20px;
+  color: #2f2f30;
+  text-transform: uppercase;
+}

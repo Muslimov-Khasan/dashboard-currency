@@ -208,6 +208,8 @@
   color: var(--gray-80);
   font-family: var(--font-work-sans);
   transform: translateX(100px);
+  margin-bottom: 80px;
+
 }
 
 .contianer {
@@ -344,5 +346,6 @@
   text-align: left;
   font-size: 16px;
   color: #2f2f30;
+  list-style-type: none;
   font-family: "Work Sans";
 }

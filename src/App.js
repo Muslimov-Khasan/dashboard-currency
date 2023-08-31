@@ -1,12 +1,16 @@
 import './App.css';
 import { Header } from './components/header/header';
-import Main from './components/main/main';
+import Navbar from './components/Navbar/Navbar';
+import Supporter from './components/Supporter/Supporter';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Main/>
+      <main>
+      <Supporter/>
+      <Navbar/>
+      </main>
     </div>
   );
 }
