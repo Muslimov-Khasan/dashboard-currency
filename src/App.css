@@ -42,26 +42,24 @@ body {
   /* Effects */
   --container-shadow-not-active: 1px 3px 3px rgba(62, 63, 64, 0.1);
 
-  	
-  	/* fonts */
-  	--font-work-sans: 'Work Sans';
-  	
-  	/* font sizes */
-  	--font-size-base: 16px;
-  	
-  	/* Colors */
-  	--gray-100: #2f2f30;
-  	--focused-non-text: #2eb670;
-  	--white: #fff;
-  	--gray-70: #a9abae;
-  	
-  	/* Paddings */
-  	--padding-5xs: 8px;
-  	--padding-xs: 12px;
-  	
-  	/* border radiuses */
-  	--br-xs: 12px;
-  	--br-9xs: 4px;
-  	--br-7xs: 6px;
-  	
+  /* fonts */
+  --font-work-sans: "Work Sans";
+
+  /* font sizes */
+  --font-size-base: 16px;
+
+  /* Colors */
+  --gray-100: #2f2f30;
+  --focused-non-text: #2eb670;
+  --white: #fff;
+  --gray-70: #a9abae;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+
+  /* border radiuses */
+  --br-xs: 12px;
+  --br-9xs: 4px;
+  --br-7xs: 6px;
 }

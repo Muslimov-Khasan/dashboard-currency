@@ -1,0 +1,25 @@
+.footer-wrapper {
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(0deg, #fffbec, #fffbec),
+    linear-gradient(0deg, #dbdcde, #dbdcde);
+}
+
+.btn-save {
+  width: 150px;
+  padding: 15px;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;   
+  background-color: #2eb670;
+}
+
+.btn-cancel {
+  width: 150px;
+  border-radius: 5px;
+  padding: 15px;
+  border: none;
+  margin-left: 16px;
+  background-color: #fff;
+}
