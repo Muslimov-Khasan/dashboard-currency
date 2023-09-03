@@ -70,7 +70,7 @@ const Designation = () => {
               min="0"
               max="50"
               value={value}
-              onChange={(e) => setValue(e.target.value)}
+              onChange={(evt) => setValue(evt.target.value)}
             />
             <strong className="range-word">{value} px</strong>
           </label>
