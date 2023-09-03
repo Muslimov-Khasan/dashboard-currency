@@ -1,4 +1,4 @@
-import "./Supporter.css";
+import "./Supporter.scss";
 import Check from "../../Assets/img/check.svg";
 import Copy from "../../Assets/img/copy.png";
 import Repeat from "../../Assets/img/repeat.svg";

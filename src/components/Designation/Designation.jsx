@@ -1,4 +1,4 @@
-import "./Designation.css";
+import "./Designation.scss";
 import React, { useState } from "react";
 import Radio from "@mui/material/Radio";
 import Checkbox from "@mui/material/Checkbox";
