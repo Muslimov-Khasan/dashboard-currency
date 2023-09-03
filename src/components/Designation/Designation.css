@@ -1,0 +1,141 @@
+.designation-inner {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(0deg, #dbdcde, #dbdcde);
+}
+
+.designation-labe {
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-top: 6px;
+}
+
+.gola-wrapper {
+  transform: translateX(50px);
+  margin: 11px;
+}
+
+.gola-labe {
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-top: 6px;
+}
+
+.designation-select {
+  width: 296px;
+  height: 40px;
+  margin-left: 20px;
+  border: 1px rgba(169, 171, 174, 1) solid;
+  margin-bottom: 21px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.gola-select {
+  width: 80px;
+  height: 40px;
+  margin-left: 20px;
+  border: 1px rgba(169, 171, 174, 1) solid;
+  border-radius: 5px;
+  margin-bottom: 22px;
+}
+
+.designation-option {
+  width: 296px;
+  height: 140px;
+  margin-left: 377px;
+}
+
+.gola-option {
+  width: 296px;
+  height: 150px;
+  margin-left: 377px;
+}
+
+.gola-input {
+  width: 192px;
+  height: 40px;
+  margin-left: 20px;
+  top: 624.9999999999999px;
+  left: 547.9999999999998px;
+  padding: 8px, 12px, 8px, 12px;
+  border-radius: 6px;
+  border: 1px rgba(169, 171, 174, 1) solid;
+}
+
+.label {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+.radio {
+  transform: translateX(104px);
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+}
+
+.checkbox-lable {
+  display: flex;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.checkbox-wrapper {
+  transform: translateX(7rem);
+  margin-bottom: 33px;
+}
+
+.range-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.range {
+  width: 218px;
+  height: 19px;
+  transform: translateX(4rem);
+  accent-color: #2ecc71;
+  margin-bottom: 25px;
+}
+
+.range:hover {
+  transition: 1s;
+  accent-color: #48c87d;
+}
+
+.range-word {
+  width: 28px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-left: 70px;
+}
+
+.customize-inner {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.customize {
+  transform: translateX(7rem);
+}
